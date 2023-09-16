@@ -55,6 +55,12 @@ func main() {
 					src.NewFileBrowserMainWindow().Run()
 				},
 			},
+			PushButton{
+				Text: "GRADIENT_COMPOSITE",
+				OnClicked: func() {
+					src.NewGradientCompositeMainWindow().Run()
+				},
+			},
 			VSpacer{},
 		},
 	}.Run()
