@@ -19,6 +19,31 @@ func main() {
 					src.NewActionMainWindow().Run()
 				},
 			},
+			PushButton{
+				Text: "CLIPBOX",
+				OnClicked: func() {
+					src.NewClipBoardMainWindow().Run()
+				},
+			},
+			PushButton{
+				Text: "DATABINDING",
+				OnClicked: func() {
+					src.NewDataBindingMainWindow().Run()
+				},
+			},
+			PushButton{
+				Text: "DRAWING",
+				OnClicked: func() {
+					src.NewDrawingMainWindow().Run()
+				},
+			},
+			PushButton{
+				Text: "DROPFILE",
+				OnClicked: func() {
+					src.NewDropfileMainWindow().Run()
+				},
+			},
+			VSpacer{},
 		},
 	}.Run()
 }

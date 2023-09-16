@@ -11,10 +11,11 @@
 ## TODO
 
 - [X] action
-- [ ] clipboard
-- [ ] databinding
-- [ ] drawing
-- [ ] dropfiles
+- [X] clipboard
+- [X] databinding
+- [X] drawing
+- [ ] draw svg
+- [X] dropfiles
 - [ ] externalwidgets
 - [ ] filebrowser
 - [ ] gradientcomposite
