@@ -43,6 +43,18 @@ func main() {
 					src.NewDropfileMainWindow().Run()
 				},
 			},
+			PushButton{
+				Text: "EXTERNAL_WIDGETS",
+				OnClicked: func() {
+					src.NewExternalWidgetsMainWindow().Run()
+				},
+			},
+			PushButton{
+				Text: "FILE_BROWSER",
+				OnClicked: func() {
+					src.NewFileBrowserMainWindow().Run()
+				},
+			},
 			VSpacer{},
 		},
 	}.Run()

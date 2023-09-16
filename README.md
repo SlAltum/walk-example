@@ -16,7 +16,7 @@
 - [X] drawing
 - [ ] draw svg
 - [X] dropfiles
-- [ ] externalwidgets
+- [X] externalwidgets
 - [ ] filebrowser
 - [ ] gradientcomposite
 - [ ] imageicon
