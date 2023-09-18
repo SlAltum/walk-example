@@ -98,6 +98,24 @@ func main() {
 					src.ListBoxOwnerDrawingCancel <- true
 				},
 			},
+			PushButton{
+				Text: "LOG_VIEW",
+				OnClicked: func() {
+					src.NewLogViewMainWindow().Run()
+				},
+			},
+			PushButton{
+				Text: "MULTIPLE_PAGE",
+				OnClicked: func() {
+					src.NewMultiplepageAppMainWindow().Run()
+				},
+			},
+			PushButton{
+				Text: "NOTIFY_ICON",
+				OnClicked: func() {
+					src.NewNotifyIconMainWindow().Run()
+				},
+			},
 			VSpacer{},
 		},
 	}.Run()

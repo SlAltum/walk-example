@@ -26,10 +26,10 @@
 - [X] linklabel
 - [X] listbox
 - [X] listbox_ownerdrawing
-- [ ] logview
-- [ ] multiplepages
-- [ ] notifyicon
-- [ ] progressindicator
+- [X] logview
+- [X] multiplepages
+- [X] notifyicon
+- [ ] progressindicator [ui2walk工具不再维护](https://github.com/lxn/walk/issues/469)，用例无法运行
 - [ ] radiobutton
 - [ ] settings
 - [ ] slider
