@@ -18,14 +18,14 @@
 - [X] dropfiles
 - [X] externalwidgets
 - [ ] filebrowser
-- [ ] gradientcomposite
-- [ ] imageicon
-- [ ] imageview
-- [ ] imageviewer
-- [ ] img
-- [ ] linklabel
-- [ ] listbox
-- [ ] listbox_ownerdrawing
+- [X] gradientcomposite
+- [X] imageicon
+- [X] imageview
+- [X] imageviewer
+- [X] img
+- [X] linklabel
+- [X] listbox
+- [X] listbox_ownerdrawing
 - [ ] logview
 - [ ] multiplepages
 - [ ] notifyicon

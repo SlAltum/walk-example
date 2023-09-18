@@ -61,6 +61,43 @@ func main() {
 					src.NewGradientCompositeMainWindow().Run()
 				},
 			},
+			PushButton{
+				Text: "IMAGE_ICON",
+				OnClicked: func() {
+					src.NewImageIconMainWindow().Run()
+				},
+			},
+			PushButton{
+				Text: "IMAGE_VIEW",
+				OnClicked: func() {
+					src.NewImageViewMainWindow().Run()
+				},
+			},
+			PushButton{
+				Text: "IMAGE_VIEWER",
+				OnClicked: func() {
+					src.NewImageViewerMainWindow().Run()
+				},
+			},
+			PushButton{
+				Text: "LINK_LABEL",
+				OnClicked: func() {
+					src.NewLinkLabelMainWindow().Run()
+				},
+			},
+			PushButton{
+				Text: "LIST_BOX",
+				OnClicked: func() {
+					src.NewListBoxMainWindow().Run()
+				},
+			},
+			PushButton{
+				Text: "LIST_BOX_OWNER_DRAWING",
+				OnClicked: func() {
+					src.NewListBoxOwnerDrawingMainWindow().Run()
+					src.ListBoxOwnerDrawingCancel <- true
+				},
+			},
 			VSpacer{},
 		},
 	}.Run()

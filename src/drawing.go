@@ -10,7 +10,7 @@ import (
 )
 
 func NewDrawingMainWindow() *MainWindow {
-	mw := new(MyMainWindow)
+	mw := new(DrawingMainWindow)
 
 	drawingMw := MainWindow{
 		AssignTo: &mw.MainWindow,
@@ -31,12 +31,12 @@ func NewDrawingMainWindow() *MainWindow {
 	return &drawingMw
 }
 
-type MyMainWindow struct {
+type DrawingMainWindow struct {
 	*walk.MainWindow
 	paintWidget *walk.CustomWidget
 }
 
-func (mw *MyMainWindow) drawStuff(canvas *walk.Canvas, updateBounds walk.Rectangle) error {
+func (mw *DrawingMainWindow) drawStuff(canvas *walk.Canvas, updateBounds walk.Rectangle) error {
 	bmp, err := createBitmap()
 	if err != nil {
 		return err
