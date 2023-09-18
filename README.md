@@ -30,13 +30,13 @@
 - [X] multiplepages
 - [X] notifyicon
 - [ ] progressindicator [ui2walk工具不再维护](https://github.com/lxn/walk/issues/469)，用例无法运行
-- [ ] radiobutton
-- [ ] settings
-- [ ] slider
-- [ ] statubar
+- [X] radiobutton
+- [X] settings
+- [X] slider
+- [X] statubar
 - [ ] tableview
-- [ ] webview
-- [ ] webview_events
+- [X] webview 内核较老
+- [X] webview_events
 - [ ] 响应式布局
 - [ ] 设计模式应用
 - [ ] 更多用例

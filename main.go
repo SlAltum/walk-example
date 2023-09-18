@@ -116,6 +116,48 @@ func main() {
 					src.NewNotifyIconMainWindow().Run()
 				},
 			},
+			PushButton{
+				Text: "RADIO_BUTTON",
+				OnClicked: func() {
+					src.NewRadioButtonMainWindow().Run()
+				},
+			},
+			PushButton{
+				Text: "SETTINGS",
+				OnClicked: func() {
+					src.NewSettingsAppRun()
+				},
+			},
+			PushButton{
+				Text: "SLIDER",
+				OnClicked: func() {
+					src.NewSliderAppRun()
+				},
+			},
+			PushButton{
+				Text: "STATUSBAR",
+				OnClicked: func() {
+					src.NewStatusBarAppRun()
+				},
+			},
+			PushButton{
+				Text: "TABLE_VIEW",
+				OnClicked: func() {
+					src.RunNewTableViewApp()
+				},
+			},
+			PushButton{
+				Text: "WEBVIEW",
+				OnClicked: func() {
+					src.RunNewWebViewApp()
+				},
+			},
+			PushButton{
+				Text: "WEBEVENT",
+				OnClicked: func() {
+					src.RunNewWebEventApp()
+				},
+			},
 			VSpacer{},
 		},
 	}.Run()
